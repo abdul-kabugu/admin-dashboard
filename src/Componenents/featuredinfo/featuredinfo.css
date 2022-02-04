@@ -1,0 +1,42 @@
+.featured-container{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.featureditem{
+    flex: 1;
+    margin: 0px 20px;
+    padding: 30px;
+    border-radius: 10px;
+}
+.title{
+    text-transform: capitalize;
+    font-size: 29px;
+    font-weight: 300;
+}
+.revenue-container{
+    margin: 10px 0;
+    display: flex;
+    align-items: center;
+}
+.featured-money{
+    font-size: 30px;
+    font-weight: 600;
+}
+.featured-rate{
+    display: flex;
+    margin-left: 20px;
+}
+.featuredicon{
+ font-size: 5px; 
+    color: green;
+    margin-left: 5px;
+}
+.negative{
+    color: red;
+}
+.description{
+    text-transform: capitalize;
+    color: #555;
+}
